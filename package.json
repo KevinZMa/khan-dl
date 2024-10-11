@@ -1,0 +1,21 @@
+{
+  "name": "khan-dl",
+  "version": "1.0.0",
+  "author": "Kevin Ma <kevinzma3@gmail.com>",
+  "description": "Download Khan Academy exercises.",
+  "keywords": [],
+  "main": "src/index.js",
+  "scripts": {
+    "start": "bun src/index.js",
+    "format": "prettier --write .",
+    "srcbook": "srcbook start"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.3.3",
+    "srcbook": "^0.0.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
